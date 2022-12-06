@@ -1,0 +1,17 @@
+.banner img {
+    width: 50%;
+    height: 450px;
+}
+
+.topics-container {
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+
+}
+
+@media (max-width: 600px) {
+    .topics-container {
+        display: grid;
+    }
+}

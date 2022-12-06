@@ -1,0 +1,10 @@
+.recharts-responsive-container {
+    margin: 0 auto;
+}
+
+@media (max-width:600px) {
+
+    .recharts-responsive-container {
+        width: auto;
+    }
+}

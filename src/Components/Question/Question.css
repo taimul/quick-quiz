@@ -1,0 +1,32 @@
+.question {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.card {
+    width: 100%;
+}
+
+.card-body {
+    gap: 20px;
+}
+
+.option {
+    border: 2px solid blueviolet;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+.icon {
+    cursor: pointer;
+}
+
+.question h4 {
+    color: blueviolet;
+}
+
+.option:hover {
+    background-color: antiquewhite;
+}
